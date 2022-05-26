@@ -1,0 +1,233 @@
+:root {
+  --red: #a51515;
+  --white: #fff;
+  --gray: #4d4d4d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-150 {
+  margin-bottom: 115px;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.fz-14 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ff-fw {
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.lh-m-c-fz {
+  line-height: 1.1;
+  margin: 70px 0 10px;
+  font-size: 24px;
+  color: var(--gray);
+}
+
+.w83-m_auto {
+  width: 87%;
+  margin: auto;
+}
+
+.h-b {
+  height: 34px;
+  border: 1px solid #dddddd;
+}
+
+.text-dec {
+  text-decoration: underline;
+}
+
+/* heder */
+.header {
+  /* position: fixed; */
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #122244;
+}
+
+.header_viettel {
+  position: absolute;
+  padding: 15px;
+}
+
+.header_viettel img {
+  width: 180px;
+  height: 70px;
+}
+
+.header_M1 {
+  position: absolute;
+  margin-left: 250px;
+  padding: 15px;
+}
+
+.header_M1 img {
+  width: 150px;
+  height: 71px;
+}
+
+.header_title {
+  position: absolute;
+  color: var(--white);
+  margin-left: 500px;
+  margin-top: 22px;
+}
+/* banner */
+.content {
+  width: 100%;
+  height: 800px;
+  background: url("/assets/images/login2.jpg") top center / cover no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.content_login {
+  background-color: var(--white);
+  height: 420px;
+  width: 360px;
+  /* display: none; */
+}
+
+/* ::placeholder {
+          color: rgba(204, 204, 204, 0.068);
+    } */
+
+.login_content input[type="text"] {
+  width: 100%;
+  padding: 17px;
+  border: 1px solid #dddddd;
+}
+
+.account {
+  color: red;
+  text-decoration: none;
+}
+
+.account:hover {
+  text-decoration: underline;
+}
+
+.content_register {
+  width: 462px;
+  height: 605px;
+  background: var(--white);
+  display: none;
+}
+
+.register_content input[type="text"] {
+  width: 100%;
+  height: 34px;
+  padding: 17px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #dddddd;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.register_content input[type="text"]:hover {
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+}
+
+.register_content input[type="text"]:focus {
+  box-shadow: 0 0 5pt 2pt #d3d3d3;
+  outline-width: 0px;
+}
+
+/* forgot password */
+.content_password {
+  width: 462px;
+  height: 525px;
+  background: var(--white);
+  display: none;
+}
+
+.content_password input[type="text"] {
+  width: 100%;
+  height: 34px;
+  padding: 17px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #dddddd;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.content_password input[type="text"]:hover {
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+}
+
+.submit {
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background-color: #535b63;
+  border: none;
+  color: var(--white);
+  font-weight: 600px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: var(--red);
+}
+.footer p {
+  color: var(--white);
+}
+
+span {
+  cursor: pointer;
+}
+
+/* mã */
+.code {
+  margin: 40px 0 15px;
+}

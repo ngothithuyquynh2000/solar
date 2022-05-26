@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/logom1.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Viettel M1</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="header_viettel">
+          <img src="./assets/images/logovt.png" alt="viettel" />
+        </div>
+        <div class="header_M1">
+          <img src="./assets/images/logom1.png" alt="M1" />
+        </div>
+        <div class="header_title">
+          <h1 class="ff-fw">Hệ thống giám sát thiết bị Solar Inverter</h1>
+        </div>
+      </div>
+      <div class="content">
+        <!-- login -->
+        <div id="solar_inverter" class="mb-20 content_login">
+          <div class="w83-m_auto login_content">
+            <h1 class="ff-fw t-center lh-m-c-fz">Solar Inverter</h1>
+            <form action="">
+              <input type="text" class="mt-20" required placeholder="Tài khoản" />
+              <input class="mt-15" required type="text" placeholder="Mật khẩu" />
+              <input class="mt-15 submit" type="submit" value="Đăng nhập" />
+  
+              <p class="mt-20 t-center fz-14">
+                Bạn không có tài khoản?<span id="create_account" class="account">
+                  Tạo tài khoản</span
+                >
+              </p>
+              <p class="mt-10 t-center fz-14">
+                <span style="color: blue" id="forPass" class="text-dec" href=""
+                  >Quên mật khẩu?</span
+                >
+              </p>
+            </form>
+          </div>
+        </div>
+          <!-- register -->
+          <div id="register" class="mb-50 content_register">
+            <div class="w83-m_auto register_content">
+              <!-- Tạo tài khoản -->
+              <h1 class="ff-fw t-center lh-m-c-fz">Tạo tài khoản</h1>
+              <form action="">
+                <input
+                  type="text"
+                  class="mt-20"
+                  required
+                  placeholder="Tên tài khoản"
+                />
+                <input
+                  class="mt-15"
+                  required
+                  type="text"
+                  placeholder="Mật khẩu"
+                />
+                <input
+                  class="mt-15"
+                  required
+                  type="text"
+                  placeholder="Số điện thoại"
+                />
+                <input class="mt-15 submit" type="submit" value="Đăng kí" />
+              </form>
+  
+              <!-- Mã xác nhận -->
+              <h1 class="ff-fw t-center lh-m-c-fz code">Mã xác nhận</h1>
+              <form action="">
+                <input class="mt-15" required type="text" placeholder="Mã code" />
+                <input class="mt-15 submit" type="submit" value="Xác nhận" />
+                <p class="mt-20 t-center fz-14">
+                  Bạn đã có tài khoản?<a id="login" class="account" href="">
+                    Đăng nhập</a
+                  >
+                </p>
+              </form>
+            </div>
+          </div>
+  
+          <div id="forgot_password" class="mb-150 content_password">
+            <div class="w83-m_auto password_content">
+              <!-- Quên mật khẩu -->
+              <h1 class="ff-fw t-center lh-m-c-fz">Quên mật khẩu</h1>
+              <form action="">
+                <input
+                  type="text"
+                  class="mt-20"
+                  required
+                  placeholder="Tên tài khoản"
+                />
+                <input
+                  class="mt-15"
+                  required
+                  type="text"
+                  placeholder="Số điện thoại"
+                />
+                <input class="mt-15 submit" type="submit" value="Lấy mã QTP" />
+                <input
+                  type="text"
+                  class="mt-20"
+                  required
+                  placeholder="Nhập mã OTP"
+                />
+                <input
+                  class="mt-15"
+                  required
+                  type="text"
+                  placeholder="Mật khẩu mới"
+                />
+                <input class="mt-15 submit" type="submit" value="Xác nhận" />
+                <p class="mt-20 t-center fz-14">
+                  Bạn đã có tài khoản?<a id="login" class="account" href="">
+                    Đăng nhập</a
+                  >
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="footer">
+        <p class="t-center fz-14">Sản phẩm của Công ty Thông Tin M1</p>
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
